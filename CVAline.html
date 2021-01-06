@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+    h1 {
+      color: #262b33;
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      text-align: 100px;
+      margin: 8px 8px 8px 8px;
+    }
+    h2 {
+      color: #082a4d;
+      font-family: "Work Sans", sans-serif;
+      font-size: 12px;
+      margin: 8px 8px 8px 8px;
+      text-align: 40px 40px;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: "Oswald", sans-serif;
+      font-size: 25px;
+      font-style: bold;
+      margin-bottom: 11px;
+    }
+    ul {
+      font-family: "Nunito", sans-serif;
+      font-size: 15px;
+    }
+    p {
+      font-family: "Nunito", sans-serif;
+      font-family: "Titillium Web", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 3px;
+    }
+    .ctnr {
+      display: flex;
+      flex-direction: row;
+      font-size: 10px;
+      justify-content: left;
+      min-height: 100vh;
+    }
+
+    .dates {
+      color: darkgrey;
+      font-size: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-transform: uppercase;
+    }
+    .details {
+      margin-bottom: 34px;
+    }
+    .education {
+      font-size: 15px;
+      font-family: "Nunito", sans-serif;
+    }
+    .job-title {
+      color: #082a4d;
+      font-size: 16px;
+      font-family: "Noto Sans KR", sans-serif;
+      margin-bottom: 8px;
+      margin-left: 0;
+    }
+    .left {
+      background-color: eeeeee;
+      box-sizing: border-box;
+      padding: 45px 45px;
+      width: 75%;
+    }
+    .links {
+      color: aliceblue;
+      cursor: pointer;
+      transition: all 200ms ease-in-out;
+    }
+    .nationality {
+      margin-top: 15px;
+    }
+    .progress-bar {
+      background-color: slategray;
+      margin-top: 4px;
+      margin-bottom: 8px;
+      width: 70%;
+    }
+    .progress {
+      background-color: aliceblue;
+    }
+    .right {
+      background-color: #082a4d;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: snow;
+      width: 25%;
+      padding: 35px 35px;
+      text-align: left;
+    }
+    .small-title {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      margin: 3px;
+      margin-bottom: 10px;
+      margin-top: 40px;
+    }
+    .skills {
+      margin-bottom: 34px;
+    }
+    .subtitle {
+      color: slategray;
+    }
+    #coursesfontsize {
+      color: #262b33;
+      font-size: 13px;
+    }
+    @media print {
+      #printpage {
+        margin-top: 340px;
+      }
+    }
+    #profilepic {
+      border-radius: 100%;
+      display: block;
+      float: center;
+      height: 100px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      padding: 10px 10px 10px 10px;
+      width: 100px;
+    }
+  </style>
+  <body>
+    <div class="ctnr">
+      <section class="left">
+        <h1>Aline Bora-Kloppert</h1>
+        <h2>Quality Assurance | Test Engineer</h2>
+        <h3>Profile</h3>
+        <ul>
+          <li>
+            Passionate Quality Assurance Engineer striving for team connection
+            towards product greatness.
+          </li>
+          <li>
+            Innovative, curious and creative thinker, engaged into learning new
+            technologies
+          </li>
+          <li>
+            Strong problem solving skills with meticulous attention to detail
+          </li>
+        </ul>
+        <h3>Education</h3>
+        <ul class="education">
+          <li>
+            Master of Science in Business Administration, TIAS Business School
+            <br />
+            Specialization in Business Analytics with Change Management Minor<br />
+            Granted “Orange Tulip Scholarship” TIAS Business School; Ranked 28th
+            in Europe (Financial Times);
+          </li>
+        </ul>
+        <h3>Employement History</h3>
+        <p class="job-title">
+          Quality Assurance Engineer | Chama the App, Amsterdam
+        </p>
+        <span class="dates"> September 2020 - Present</span>
+        <ul>
+          <li>Working knowledge in SDLC with Agile/Scrum</li>
+          <li>Structured working providing documentation</li>
+          <li>
+            Create and execute test scenarios and test plans on Chama the App &
+            WebApp
+          </li>
+          <li>
+            Manual functional testing of newly added features and bug reporting
+          </li>
+          <li>Automation testing with Cypress</li>
+          <li>
+            Provide descriptions on how the hardware is tested and document the
+            results in a clean and understandable manner
+          </li>
+          <li>Report and document on issues to the Development team</li>
+          <li>SQL database knowledge</li>
+        </ul>
+        <p class="job-title">Quality Control Analyst | Farehabor, Amsterdam</p>
+        <span class="dates"> May 2019 - Sep 2020</span>
+        <ul>
+          <li>
+            Manual functional testing for Quality Assurance of a Booking
+            Software Dashboard
+          </li>
+          <li>
+            Strategic checks aimed to identify procedural checks, communicating
+            with product team
+          </li>
+          <li>
+            Tracked internal Data to tackle opportunities for software
+            development
+          </li>
+          <li>
+            Developed projects using internal data with Tableau and Excel to
+            assess continuous product quality
+          </li>
+        </ul>
+        <p id="printpage" class="job-title">
+          Commercial Analyst | Cugnier Certificadora, BR
+        </p>
+        <span class="dates"> Aug 2014 - Oct 2015</span>
+        <ul>
+          <li>
+            Sales report, forecasting data driven trends from market and
+            customers’ database, elaborating on solutions towards commercial
+            success figures and decisions
+          </li>
+          <li>
+            Research & Development reporting on marketing trends with commercial
+            awareness over the industry and its segments of interest
+          </li>
+          <li>
+            Strategic sales plan (team of 5) for marketing growth, finding
+            solutions accomplishing successful turnarounds
+          </li>
+          <li>
+            Analyzed costumer’s logistics issues, being the nexus between the
+            third party business and clients, providing solutions, strengthening
+            customer relationship
+          </li>
+          <li>
+            Strong Communicator, represented the company in international
+            business fairs & networking events
+          </li>
+        </ul>
+        <p class="job-title">
+          Commercial Project Development Assistant | APM Terminals
+        </p>
+        <span class="dates"> Feb 2013 - Jul 2014</span>
+        <ul>
+          <li>
+            Process assessment, analyzing commercial and purchase planning for
+            the project
+          </li>
+          <li>
+            Management of all logistical details, discussing within departments
+            aspects for the project delivery
+          </li>
+          <li>
+            Prepared, analyzed and summarized metrics data detaining record of
+            services/products to be presented to executive leadership for
+            project’s set up
+          </li>
+          <li>Revised projects contracts for legal department approval</li>
+        </ul>
+        <h3>Courses</h3>
+        <span class="dates"> Sep 2009 - Sep 2010</span>
+        <p id="coursesfontsize" class="job-title">
+          Business Administration | College of Lake County, Chicago, USA
+        </p>
+        <span class="dates"> Aug - Sep 2020</span>
+        <p id="coursesfontsize" class="job-title">
+          JavaScript, Html & CSS | SheCodes Workhops
+        </p>
+        <h3>Extra-curricular Activities</h3>
+        <p class="job-title">Event Coordinator</p>
+        <span class="dates"> Aug 2017 - Dec 2018</span>
+        <ul>
+          <li>
+            Selected as 1 of 5 members by TIAS, according to motivation +
+            background
+          </li>
+          <li>
+            Organized events for passionate students to network with innovative
+            companies to create career opportunities. Business Tours were
+            successfully organized at, among others, Google in Dublin, Young
+            Financials and Greenhouse Group.
+          </li>
+        </ul>
+      </section>
+      <section class="right">
+        <img id="profilepic" src="profilephoto.png" />
+        <section class="details">
+          <h4 class="small-title">Details</h4>
+          <p>Street Name,X</p>
+          <p>City, Zipcode</p>
+          <p>Netherlands</p>
+          <p>Phone Number</p>
+          <p><u>email@gmail.com</u></p>
+          <section class="nationality">
+            <p class="subtitle">NATIONALITY</p>
+            <p>Brazilian/Dutch</p>
+          </section>
+        </section>
+        <section class="skills">
+          <h4 class="small-title">Skills</h4>
+          <p>Communication Skills</p>
+          <p>Creative Problem Solving</p>
+          <p>Analytical Thinking Skills</p>
+          <p>Manual Testing</p>
+          <p>Automated Testing</p>
+          <p>JavaScript</p>
+          <p>Html</p>
+          <p>CSS</p>
+        </section>
+        <section class="languages">
+          <h4 class="small-title">Languages</h4>
+          <p>English</p>
+          <div class="progress-bar">
+            <div class="progress" style="height: 4px; width: 92%"></div>
+          </div>
+          <p>Portuguese</p>
+          <div class="progress-bar">
+            <div class="progress" style="height: 4px; width: 100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="progress-bar">
+            <div class="progress" style="height: 4px; width: 80%"></div>
+          </div>
+          <p>Dutch</p>
+          <div class="progress-bar">
+            <div class="progress" style="height: 4px; width: 55%"></div>
+          </div>
+        </section>
+        <section class="skills">
+          <h4 class="small-title">Hobbies</h4>
+          <p>
+            Meditating, Cooking, Exercising, Singing, Hanging out with friends
+          </p>
+        </section>
+        <section class="skills">
+          <h4 id="printpage" class="small-title">Links</h4>
+          <p>
+            <a
+              class="links"
+              href="https://www.linkedin.com/in/aline-bora-kloppert/"
+              >Linkedin Profile</a
+            >
+          </p>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
